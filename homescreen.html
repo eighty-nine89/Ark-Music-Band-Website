@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="homescreen.css" type="text/css"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+    </script>
+</head>
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-sm bg-light text-dark  fixed-top  justify-content-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="homescreen.html">Band Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item" style="white-space: nowrap;">
+                <a class="nav-link" href="event.html">Event</a>
+              </li>
+              <li class="nav-item" style="white-space: nowrap;">
+                <a class="nav-link" href="bookus.html">Book Us</a>
+              </li>
+              <li class="nav-item" style="white-space: nowrap;">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item" style="white-space: nowrap;">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <!-- Carousel -->
+<div id="demo" class="carousel slide mt-0" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="food1.jpg" alt="event pic 1" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>BlackStar Event</h3>
+          <p>An awesome time here in Accra!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="food1.jpg" alt="event pic 2" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>All white party</h3>
+          <p>An amazing time here in Accra!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="food1.jpg" alt="event pic 3" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Soloku</h3>
+          <p>A great time here in Kumasi!</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!--Services-->
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="heading">
+        <h3><a onclick="document.location='book.html'" style="color: gray;">OUR SERVICES</a></h3>
+        <h3 style="font-size: 18px;">ARK MUSIC BAND</h3>
+        <p>We provide a variety of services with regards to music, performances and recordings.</p>
+      </div><br>
+      <div class="footer-center">
+        <div>
+            <i class="fa fa-tv"></i>
+            <p style="color: black;">TV AND RADIO LIVE SHOWS</p>
+        </div>
+        <div>
+            <i class="fa fa-music"></i>
+            <p style="color: black;">PARTIES & AWARDS NIGHTS</p>
+        </div>
+        <div class="servicebtn">
+          <button type="button" id="Btn0" onclick="document.location='bookus.html'" >BOOK US</button>
+        </div>
+      </div><br>
+    </div>
+  </div>
+    <!--About Us-->
+  <div class="container-fluid mt-3">
+    <div class="row">
+        <div class="aboutus">
+            <h3>ABOUT US</h3>
+            <h2>LEARN MORE <a onclick="document.location='aboutus.html'" style="color: red;">ABOUT US</a></h2>
+            <p>
+                The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, 
+                The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, 
+            </p>
+            <div class="w3-panel w3-leftbar w3-light-grey">
+                <p>
+                    "Use products from nature for what it" 
+                </p><br>
+                <figcaption class="blockquote-footer"><i>Owner: Music Band</i></figcaption>
+              </div>
+            <a href="aboutus.html" style="text-decoration: none;"><button type="button" onclick="myFunction()" id="myBtn">Read More >></button></a>
+        </div>
+    </div>
+</div><br>
+    <!--Embedded Video-->
+<div class="container-fluid mt-0">
+    <div class="row">
+        <div class="heading">
+            <h3>WATCH MORE <a onclick="document.location='#insert youtube link'" style="color: red;">HERE</a></h3>
+        </div>
+    </div>
+</div>
+<div class="embed-responsive embed-responsive-16by9 container-fluid">
+    <div class="row">
+        <div class="center">
+            <div class="video">
+                <video controls width="70%" height="5%" controls autoplay>
+                    <source src="myvid.mp4" type="video/mp4">
+                    <source src="myvid.ogg" type="video/ogg">
+                    Your browser does not support the video.
+                </video>
+            </div>
+        </div>
+    </div>
+</div><br>
+    <!--Gallery-->
+    <div class="container-fluid mt-0">
+        <div class="row">
+            <div class="heading">
+                <h3 onclick="document.location='gallery.html'">PHOTO GALLERY</a></h3>
+                <p>Take a look at our band members and some moments captured at our events</p>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid mt-0">
+    <div class="row">
+        <div class="firstsliding">
+            <div class="firstslide-track">
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div> 
+        
+        
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+                <div class="firstslide">
+                    <img src="food1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Testimonials-->
+<div class="container-fluid mt-3">
+    <h3 style="text-align: center;">TESTIMONIALS</h3>
+    <p style="text-align: center;">Here is what our clients have to say...</p><br>
+</div>
+<div id="demo" class="carousel slide mt-0" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active align-items-center justify-content-center">
+        <div class="card">
+            <img class="card-img-top" src="food1.jpg" alt="customer image" class="d-block" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Customer Name 1</h4>
+              <p class="card-text">Some example text some example text. Customer recommends the Band.</p>
+            </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+            <img class="card-img-top" src="food1.jpg" alt="customer image" class="d-block" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Customer Name 2</h4>
+              <p class="card-text">Some example text some example text. Customer recommends the Band.</p>
+            </div>
+          </div> 
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+            <img class="card-img-top" src="food1.jpg" alt="customer image" class="d-block" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Customer Name 3</h4>
+              <p class="card-text">Some example text some example text. Customer recommends the Band.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div><br><br>
+  <!--Email Subscription-->
+  <div class="mailinghead">
+    <h3>Join The Band Mailing List</h3>
+    Subscribe for updates, our events, news and more.
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+        <form action="/action_page.php" method="post" >
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label"></label>
+              <input type="email" class="form-control p-3" id="email" placeholder="Email" name="email" required>
+              <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out the email field.</div>
+            </div>
+            <div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+    <label class="form-check-label" for="myCheck">I agree
+        to all terms and conditions applied</label>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+  </div><br>
+  <!-- Get Directions -->
+  <div class="container-fluid">
+    <div class="row">
+      <h3>Get Directions</h3>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p style="color: black;">Labone, Accra, Ghana</p>
+      </div><br>
+      </div>
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15884.042017994243!2d-0.1709322!3d5.5654592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9bcc0d3385c9%3A0x55b72b597f741b21!2sGet4Less%20Ghana%20Labone!5e0!3m2!1sen!2sgh!4v1697054192464!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>    </div>
+  </div><br>
+  <!--Footer-->
+  <div>
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                <a href="terms.html">Terms</a>
+                </li>
+                <li>
+                <a href="policy.html">Privacy Policy</a>
+                </li>
+        </ul>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <a href="https://goo.gl/maps/Zk1Mnyrd2TNpmLFA7"><p><span>Labone,Accra,Ghana.</span></p></a>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p><span>(+233) 24 114 5862</span></p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:kobbyfrimpz89@gmail.com">info@bandmusic.com</a></p>
+            </div>
+        </div><hr>
+        <p class="copyright">© 2023, The Band Music, All rights reserved.<br> Developed by:The Eightynine Clique (TEC) </p>
+        </section>
+  </div>
+</body>
+</html>          
