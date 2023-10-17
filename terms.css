@@ -3,6 +3,19 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.nav-item a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: red;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+}
+.nav-item a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
 .aboutus h3{
     margin-top: 4rem;
     color: grey;
