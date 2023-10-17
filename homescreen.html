@@ -42,7 +42,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-            <ul class="navbar-nav d-flex justify-content-center">
+            <ul class="navbar-nav align-items-center">
               <li class="nav-item" style="white-space: nowrap;">
                 <a class="nav-link" href="event.html">Event</a>
               </li>
@@ -272,27 +272,29 @@
   <div class="mailinghead">
     <h3>Join The Band Mailing List</h3>
     Subscribe for updates, our events, news and more.
-  </div>
+  </div><br>
   <div class="container-fluid">
     <div class="row justify-content-center">
         <form action="/action_page.php" method="post" >
-            <div class="mb-3 mt-3">
+            <div class="mb-3 mt-3 d-flex justify-content-center">
               <label for="email" class="form-label"></label>
-              <input type="email" class="form-control p-3" id="email" placeholder="Email" name="email" required>
+              <input type="email" class="form-control p-3 " id="email" placeholder="Email" name="email" required style="width: 60%;">
               <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback">Please fill out the email field.</div>
+              <div class="invalid-feedback">Please fill out the email field.</div>
             </div>
-            <div class="form-check mb-3">
+            <div class="form-check mb-3 d-flex justify-content-center">
     <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
     <label class="form-check-label" for="myCheck">I agree
         to all terms and conditions applied</label>
     <div class="valid-feedback">Valid.</div>
     <div class="invalid-feedback">Check this checkbox to continue.</div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="container d-flex justify-content-center">
+      <button type="submit" id="btn1" class="btn btn-dark justify-content-center">Submit</button>
+    </div>
     </form>
     </div>
-  </div><br>
+  </div><br><br>
   <!-- Get Directions -->
   <div class="container-fluid">
     <div class="row">
@@ -309,7 +311,7 @@
   </div><br>
   <!--Footer-->
   <div>
-    <section class="footer">
+    <section class="footer mt-0">
         <div class="social">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>

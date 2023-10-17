@@ -16,6 +16,10 @@ body{
     width: 100%;
     transition: width 0.3s linear;
 }
+.carousel-inner .carousel-item img{
+    width:640px;
+    height:500px;
+  }
 .heading{
     background-position: 100%;
     width: 100%;

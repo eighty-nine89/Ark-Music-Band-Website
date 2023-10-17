@@ -16,6 +16,10 @@ body{
     width: 100%;
     transition: width 0.3s linear;
 }
+.carousel-inner .carousel-item img{
+    width:640px;
+    height:500px;
+  }
 .carousel-caption p{
     font-size: 14px;
 }
@@ -72,7 +76,7 @@ div.servicebtn{
 .w3-row{
     margin-top: -5%;
 }
-#myBtn {
+#myBtn{
     float: left;
     width: 9rem;
     background-color: transparent;
@@ -169,6 +173,21 @@ div.center{
 div.mailinghead{
     text-align: center;
 }
+#btn1{
+    width: 9rem;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 8px 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    z-index: 1;
+    background-position: 100%;
+}
+#btn1:hover{
+    background-color: red;
+}
 .google-map {
     padding-bottom: 50%;
     position: relative;
@@ -181,7 +200,7 @@ div.mailinghead{
     text-align: center;
 }
 .google-map iframe {
-    height: 100%;
+    height:100%;
     width: 100%;
     left: 0;
     top: 0;
