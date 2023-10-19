@@ -18,7 +18,7 @@
   <!--Header-->
   <nav class="navbar navbar-expand-sm bg-light fixed-top d-flex justify-content-center">
       <div class="container-fluid">
-        <a class="navbar-brand" href="homescreen.html">Band Logo</a>
+        <a class="navbar-brand" href="homescreen.html" translate="no" style="font-style: cursive;">Ark Music Band</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,7 +65,7 @@
       <p>Let us know whats is on your mind</p>
       <div class="container">
         <form action="https://formsubmit.co/kobbyfrimpz89@gmail.com" method="POST">
-          <input type="text" name="Name" placeholder="Full Name" required>
+          <input type="text" autocapitalize="true" name="Name" placeholder="Full Name" required>
             <input type="email" name="Email" placeholder="Email" required>
             <select name="Continent" placeholder="Select the region you live in" required>
                 <option>Africa</option>
@@ -75,7 +75,7 @@
                 <option>Oceania</option>
                 <option>South America</option>
             </select> 
-            <textarea name="Message" placeholder="Message" required></textarea>
+            <textarea name="Message" spellcheck="true" autocapitalize="true" autocomplete="on" placeholder="Message" required></textarea>
             <button id="btn2" type="submit">SUMBIT</button>
         </form>
       </div>
