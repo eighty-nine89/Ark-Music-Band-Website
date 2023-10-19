@@ -38,12 +38,23 @@ div.servicebtn{
     font-size: 14px;
     padding: 8px 14px;
     border: 1px solid red;
+    border-radius: 10px;
     cursor: pointer;
     z-index: 1;
     background-position: 100%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 #Btn0:hover{
     background-color: red;
+    transform: scale(1.03);
+  -webkit-transform:scale(1.03);
+  -moz-transform:scale(1.03);
+  -o-transform: scale(1.03);
+  box-shadow: 10px 12px 15px rgba(0, 0,0,0.5);
 }
 .about{
     background-position: 100%;
@@ -85,12 +96,23 @@ div.servicebtn{
     font-size: 12px;
     padding: 8px 14px;
     border: 1px solid red;
+    border-radius: 10px;
     cursor: pointer;
     z-index: 1;
     background-position: 100%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 #myBtn:hover{
     background-color: red;
+    transform: scale(1.03);
+  -webkit-transform:scale(1.03);
+  -moz-transform:scale(1.03);
+  -o-transform: scale(1.03);
+  box-shadow: 10px 12px 15px rgba(0, 0,0,0.5);
 }
 .heading h3{
     font-size: 17px;
@@ -180,13 +202,24 @@ div.mailinghead{
     font-weight: bolder;
     font-size: 12px;
     padding: 8px 14px;
-    border: 1px solid black;
+    border: 1px;
+    border-radius: 10px;
     cursor: pointer;
     z-index: 1;
     background-position: 100%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 #btn1:hover{
     background-color: red;
+    transform: scale(1.03);
+  -webkit-transform:scale(1.03);
+  -moz-transform:scale(1.03);
+  -o-transform: scale(1.03);
+  box-shadow: 10px 12px 15px rgba(0, 0,0,0.5);
 }
 .google-map {
     padding-bottom: 50%;

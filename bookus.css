@@ -19,7 +19,7 @@ body{
 .row h3{
     text-align: center;
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .row p{
     text-align: center;
@@ -85,9 +85,9 @@ select:focus{
 }
 #btn2{
     justify-content: center;
-    width: 12rem;
+    width: 9rem;
     background-color: black;
-    color: red;
+    color: white;
     padding: 10px 20px;
     border: none;
     font-size: 14px;

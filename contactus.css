@@ -119,12 +119,12 @@ textarea {
 
 #btn2{
     justify-content: center;
-    width: 10rem;
+    width: 9rem;
     background-color: black;
     color: white;
     padding: 10px 20px;
     border: none;
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
